@@ -1,0 +1,213 @@
+html{
+  font-family: arial,helvetica,sans-serif;
+}
+body{
+  font-family: arial,helvetica,sans-serif;
+  background: #ebeeef;
+}
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.bg-clr{
+  background-color: #1AA3D3;
+}
+a.nav-link {
+  font-size: 12px;
+  font-family: arial,helvetica,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+  text-transform: uppercase;
+  color:#fff!important;
+}
+a.navbar-brand {
+  font-size: 12px;
+  font-family: arial,helvetica,sans-serif;
+  text-shadow: 1px 1px 0 rgba(0,0,0,.2);
+  text-transform: uppercase;
+  color:#fff!important;
+}
+a.nav-link:hover {
+  background-color: #1c87ad;
+}
+.loginBox {
+  width: 50%;
+  background: #fff;
+  padding: 2% 4% 3% 4%;
+  border-radius: 9px;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+input.form-control {
+  font-size: 14px;
+  color: #555555;
+  line-height: 1.2;
+  display: block;
+  width: 100%;
+  background: transparent;
+  padding: 0 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #b4b4b4;
+  height: 44px;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #2072ca;
+  background: transparent;
+}
+.button1{
+  padding:18px 0px;
+}
+.button1 Button{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #1aa3d3;
+    border-radius: 25px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    border-color:#1aa3d3!important;
+}
+.button1 a{
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 160px;
+    height: 50px;
+    background-color: #1aa3d3;
+    border-radius: 25px;
+    font-family: Poppins-Regular;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+    text-decoration: none;
+    border-color:#1aa3d3!important;
+}
+.button1 a:hover{
+  background-color: #333333;
+}
+.button1 Button:hover {
+  background-color: #333333;
+}
+.top-sec {
+  width: 50%;
+  background: #1AA3D3;
+  padding: 4%;
+  border-radius: 9px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
+.top-sec span{
+  font-size: 45px;
+  letter-spacing: 5px;
+  color: #fff;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+}
+.register h2 {
+  font-size: 15px;
+  color: #846E61!important;
+  font-weight: 600;
+}
+.register a{
+  text-decoration: none;
+}
+.register {
+  background-color: #fff;
+  box-shadow: 0.1px 0.1px 0.1px 0.1px #888888;
+  padding: 19px 0px 10px 0px;
+  display: block;
+  cursor: pointer;
+}
+.register:hover{
+  box-shadow: 2px 2px 8px 2px #888888;
+    transition: 1s;
+}
+a.add-btn {
+  float: left;
+  text-decoration: none;
+  background: #1AA3D3;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px 17px;
+}
+h1.con-title {
+  font-size: 27px;
+  border-bottom: 2px solid #1AA3D4;
+  color: #2f1515;
+  display: inline-block;
+  padding-bottom: 5px;
+  padding-left: 9px;
+  padding-right: 11px;
+}
+@media only screen and (max-width: 800px) {
+  .button1 Button {
+    min-width: 129px;
+    font-size: 14px;
+}
+.button1 a {
+  min-width: 129px;
+  font-size: 14px;
+}
+.top-sec span {
+  font-size: 33px;
+}
+.loginBox {
+  width: 85%;
+}
+.top-sec {
+  width: 85%;
+}
+}
